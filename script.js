@@ -887,6 +887,7 @@ const mapLessonList = {
   скретч: scratch,
   питон: python,
   фронтпро: frontpro,
+  роблокс: roblox,
 };
 
 // Determine the source object based on the first element
@@ -923,6 +924,7 @@ const mapLessonList2 = {
   скретч: [skillHashScratch, 37, skillMapScratch, 59],
   питон: [skillHashPython, 60, skillMapPython, 112],
   фронтпро: [skillHashFrontpro, 113, skillMapFrontPro, 174],
+  роблокс: [skillHashRoblox, 175, skillMapRoblox, 189],
 };
 
 const heighestLesson = lessons_list.slice(1)[lessons_list.length - 2];
